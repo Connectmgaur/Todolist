@@ -10,3 +10,46 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 2px solid rgba(128, 128, 128, 0.357);
+    
+}
+h1 {
+    text-align: center;
+    color: gray;
+    text-shadow:2px 2px;
+  }
+ul li{
+  
+    border: 1px solid rgba(242, 242, 238, 0.838)
+    
+}
+
+.TodoForm {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .todo-input {
+    width: 80%;
+  }
+
+
+.btn-delete {
+    position: absolute;
+    display: none;
+   
+}
+
+  li:hover .btn-delete  {
+    display:inline-block;
+
+   
+  }
+
+
+  
