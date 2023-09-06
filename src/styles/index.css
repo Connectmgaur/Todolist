@@ -22,9 +22,16 @@ h1 {
     color: gray;
     text-shadow:2px 2px;
   }
+
+  ul {
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+ }
 ul li{
   
     border: 1px solid rgba(242, 242, 238, 0.838)
+  
     
 }
 
@@ -38,18 +45,40 @@ ul li{
     width: 80%;
   }
 
-
-.btn-delete {
-    position: absolute;
+  .List li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(242, 242, 238, 0.838);
+    padding: 10px;
+  }
+  
+  .List li label {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .List li .btn-delete {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .List li .btn-delete span {
+    margin-right: 10px;
+  }
+  
+  .List li .btn-delete i {
     display: none;
-   
-}
+    color: rgba(195, 167, 64, 0.301);
 
-  li:hover .btn-delete  {
+  }
+ li:hover .btn-delete i{
     display:inline-block;
-
-   
   }
 
 
+
+ 
   

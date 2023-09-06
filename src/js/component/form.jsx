@@ -35,8 +35,10 @@ return (
         {todos.map((item, index) => (
           <li key={index}>
             <label>{item}</label>
-            <button className="btn-delete" onClick={() => handleDelete(index)}>
-              <i className="fa fa-trash" aria-hidden="true"></i>
+           <button className="btn-delete" onClick={() => handleDelete(index)}>
+            <span>
+            <i class="fa fa-times" aria-hidden="true"></i></span>
+      
             </button>
           </li>
           
